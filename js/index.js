@@ -4,24 +4,12 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+  });
+})(jQuery);
 
-
-// (function(){
-
-//   var parallax = document.querySelectorAll(".parallax"),
-//       speed = 0.5;
-
-//   window.onscroll = function(){
-//     [].slice.call(parallax).forEach(function(el,i){
-
-//       var windowYOffset = window.pageYOffset,
-//           elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-
-//       el.style.backgroundPosition = elBackgrounPos;
-
-//     });
-//   };
-
-// })();
+$(function(){
+    $(".element").typed({
+      strings: ["Developer", "Designer"],
+      typeSpeed: 0
+    });
+});

@@ -31,7 +31,7 @@ a .hover {
 }
 
 h1 {
-  font-size: 5vh;
+  font-size: 7vh;
   letter-spacing: 2px;
 }
 h2 {
@@ -86,7 +86,34 @@ p {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/*.element {
+    letter-spacing: 2px;
+    font-size: 14vh;
+    margin-left: 10px;
+}*/
+.typed-cursor{
+    opacity: 0;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 14vh;
+    padding-right: 5px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 
 .gallery {
   background: #fff;
