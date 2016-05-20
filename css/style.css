@@ -3,6 +3,11 @@ body {
   font-family: 'Cabin';
 }
 
+a {
+  font-weight: bold;
+  color: grey;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #000;
