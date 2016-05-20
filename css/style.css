@@ -36,6 +36,7 @@ h2 {
 p {
   font-size: 16px;
   line-height: 140%;
+  text-align: left;
 }
 
 .chip {
