@@ -33,6 +33,7 @@ a .hover {
 h1 {
   font-size: 7vh;
   letter-spacing: 2px;
+  line-height: 8vh;
 }
 h2 {
   font-size: 4vh;
@@ -42,6 +43,10 @@ p {
   font-size: 16px;
   line-height: 140%;
   text-align: left;
+}
+
+a .fa {
+  color: #00b8d4;
 }
 
 .chip {
@@ -220,15 +225,20 @@ footer.page-footer {
   font-weight: bold;
   padding-left: 10px;
 }
+/*.icon-block {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20%;
+  padding-top: 20%;
 
-.Flexible-container {
+}*/
+.flexible-container {
     position: relative;
     padding-bottom: 10px;
     padding-top: 10px;
     height: 0;
     float: center;
     line-height: 20px;
-
 }
 
 .pretty-box {
