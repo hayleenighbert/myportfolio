@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="description" content="Haylee Nighbert Full Stack Web Developer and Designer in Seattle, WA">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+  <title>Haylee Nighbert - Developer and Creative</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.css"/>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/typed.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+        <div class="col m10 offset-m1 s12">
+            <h2 class="center-align">Contact Form</h2>
+            <div class="row">
+                <form name="contactform" method="post" action="mail_handler.php" class="col s12">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="company" type="text" class="validate">
+                            <label for="company">Company</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="telephone" type="text" class="validate">
+                            <label for="telephone">Telephone</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col m12">
+                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
