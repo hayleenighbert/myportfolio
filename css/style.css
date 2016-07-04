@@ -251,11 +251,12 @@ footer.page-footer {
 }*/
 .flexible-container {
     position: relative;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5%;
+    padding-top: 5%;
     height: 0;
     float: center;
     line-height: 20px;
+    
 }
 
 .pretty-box {
