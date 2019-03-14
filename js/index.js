@@ -1,15 +1,15 @@
-(function($){
-  $(function(){
+var app = document.getElementById('typewriter');
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-
-  });
-})(jQuery);
-
-$(function(){
-    $(".element").typed({
-      strings: ["Developer", "Designer"],
-      typeSpeed: 0
-    });
+var typewriter = new Typewriter(app, {
+    loop: true
 });
+
+typewriter.typeString('UX Designer')
+    .pauseFor(1000)
+    .deleteAll()
+    .typeString('Web Developer')
+    .pauseFor(1000)
+    .deleteChars(7)
+    .typeString('Interactive Designer')
+    .pauseFor(1000)
+    .start();

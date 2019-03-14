@@ -1,387 +1,128 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
 body {
+  font-family: 'Raleway', sans-serif;
   color: black;
-  font-family: 'Cabin';
-}
-
-a {
-  font-weight: bold;
-  color: black;
-}
-
-nav ul a,
-nav .brand-logo {
-  color: #000;
-  height: 100%;
-  background-color: transparent;
-  box-shadow:none;
-}
-.nav {
-  background-color: white;
-  height: 65px;
-  border-bottom: 1px black;
-}
-
-a {
-  color: black;
-  font-style: underline;
-}
-
-a .hover {
-  color: grey;
 }
 
 h1 {
-  font-size: 6.5vh;
-  letter-spacing: 2px;
-  line-height: 8vh;
-}
-
-h1 > a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-h1 > a {
-  position: relative;
-  color: #000;
-  text-decoration: underline;
-}
-
-h1 > a:hover {
-  color: #000;
-}
-
-h1 > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-h2 {
-  color: "#000";
-  font-size: 4vh;
-  letter-spacing: 1px;
-}
-
-h3 {
-  color: "#000";
-  font-size: 3vh;
-}
-
-
-p {
-  font-size: 16px;
-  line-height: 140%;
-}
-
-a .fa {
-  color: #6B6B6B;
-}
-
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
-}
-
-.chip {
-  margin: 5px;
-}
-
-.resume {
-    display: block;
-    height: 75px;
-    width: 200px;
-    line-height: 60px;
-
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: auto 0;
-    font-size: 2em;
-}
-
-.nav:hover {
-    opacity:1.0;
-    box-shadow:none;
-    -webkit-animation-delay: 1.0s;
-    -moz-animation-delay:1.0s;
-    animation-delay: 1.0s;
-}
-
-.fa:hover {
-    color: #90bed5;
-    background-color: transparent;
-    opacity:1.0;
-    box-shadow:none;
-    -webkit-animation-delay: 1.0s;
-    -moz-animation-delay:1.0s;
-    animation-delay: 1.0s;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-/*.element {
-    letter-spacing: 2px;
-    font-size: 14vh;
-    margin-left: 10px;
-}*/
-.typed-cursor{
-    opacity: 0;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    font-size: 14vh;
-    padding-right: 5px;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-.gallery {
-  background: #fff;
-}
-
-.gallery-cell {
-  width: 28%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
-}
-
-.gallery-cell.is-selected {
-  background: #ED2;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-
-.parallax-container {
-  height: 100vh;
-  line-height: 0;
-  color: rgba(255,255,255,.9);
-  background-attachment: fixed;
-  padding-top: 0px;
-}
-  .parallax-container .section {
-    width: 100%;
-    padding-top: 0;
-  }
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 25%;
-  }
-  #index-banner .section {
-    top: 0%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  color: #000000;
-}
-.icon-block .material-icons {
-  color: #000000;
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-.fa {
-  color: #000000;
-}
-.fa-cog {
-  color: #000000;
-}
-
-
-.header-text {
-  text-align: center;
-  letter-spacing: 5px;
-  padding: 10px;
-  margin: auto 0;
-  vertical-align: center;
-  font-size: 55px;
-  color: #fff;
-  padding: 20px;
-  width: 100%;
-  text-shadow: 0 1px 0 black;
-}
-
-.header-text2 {
-  text-align: center;
-  letter-spacing: 2px;
-  margin: auto 0;
-  vertical-align: center;
-  font-size: 32px;
-  line-height: 10px;
-  color: white;
-  padding-top: 20px;
-  width: 100%;
-}
-
-.name-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   color: black;
-  font-family: font-family: 'Oxygen', sans-serif;
-  size: 14px;
-  font-weight: bold;
-  padding-left: 10px;
-}
-/*.icon-block {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 20%;
-  padding-top: 20%;
-
-}*/
-.flexible-container {
-    position: relative;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    height: 0;
-    float: center;
-    line-height: 20px;
 }
 
-.pretty-box {
-  background-color: #90bed5;
-  padding: 30px;
-  margin: 10px;
-  vertical-align: center;
-  margin: auto 0;
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+li {
+  line-height: 34px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.blockquote {
+  background-color: white;
+  padding: 5%;
+  font-size: 1.4rem;
+}
+
+.btn {
+  background-color: #eee;
+  color:black;
+}
+
+
+.card-body {
+}
+
+.text-center {
+  padding: 10%;
+}
+
+.fab {
+  font-size: 1.6rem;
+}
+
+.card {
+  padding: 0px;
+  border: 0px;
+}
+
+.card-header {
+  padding: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-header {
+  font-size: 1.8rem;
+}
+
+.lead {
+  text-align: left;
+}
+
+.card-img-top {
   width: 100%;
-  position: relative;
-  display: inline-block;
+  height: 16vw;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 100%)   {
-    .pretty-box, .Flexible-container{
-        width:100%;
-        float:none;
-    }
-
+.parallax-window {
+  min-height: relative;
+  background: transparent;
+  padding: 50px;
 }
 
-.input-field {
-  width: 200px;
+.container-fluid {
+  vertical-align: middle;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-#headshot {
-    height: 300px;
-    margin: auto 0;
-    float: center;
-    padding: 20px;
+.well {
+  width: 300px;
+  padding: 50px;
 }
 
-/* make keyframes that tell the start state and the end state of our object */
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
-}
-
-.fade-in.one {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-}
-
-.fade-in.two {
-  -webkit-animation-delay: 1.0s;
-  -moz-animation-delay:1.0s;
-  animation-delay: 1.0s;
-}
-
-.fade-in.three {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
-}
-
-.fade-top {
-  from {top:0px; opacity: 0;}
-  to {top:200px; opacity: 1;}
-}
-
-.icon::before {
-    display: inline-block;
-    margin-right: .5em;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
-}
-
-#floated {
-    float: left;
-    width: relative;
+#typewriter {
+  padding:100px;
+  text-align: center;
+  font-size: 48px;
 }
