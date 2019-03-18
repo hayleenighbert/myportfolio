@@ -63,6 +63,11 @@ li {
   color:white;
 }
 
+.btn:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+
 .fa-lg {
   font-size: 1.6rem;
 }
