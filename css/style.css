@@ -45,7 +45,7 @@ li {
 }
 
 .blockquote {
-  padding: 0px;
+  padding: 10%;
 }
 
 .avatar {
@@ -80,7 +80,7 @@ li {
 }
 
 .text-center {
-  padding: 10%;
+  padding: 5%;
 }
 
 .card {
