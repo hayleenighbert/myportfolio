@@ -82,6 +82,10 @@ div {
   background-color: #333333;
 }
 
+.btn:active {
+  background-color: #A78DB0;
+}
+
 .fa-lg {
   font-size: 1.6rem;
 }
