@@ -74,6 +74,7 @@ div {
 .btn {
   background-color: purple;
   color:white;
+  margin: 5px;
 }
 
 .btn:hover {
