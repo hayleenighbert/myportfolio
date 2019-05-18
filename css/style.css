@@ -31,6 +31,9 @@ h1 {
   color: black;
 }
 
+h3 {
+  font-size: 22px;
+}
 
 a {
   color: black;
@@ -44,7 +47,7 @@ li {
   line-height: 34px;
 }
 
-* {
+div {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
