@@ -53,6 +53,20 @@ div {
           border-radius: 0 !important;
 }
 
+.container{
+    padding:5%;
+}
+.container .img{
+    text-align:center;
+}
+.container .details{
+    border-left:3px solid #ded4da;
+}
+.container .details p{
+    font-size:16px;
+    font-style: none;
+}
+
 .blockquote {
   padding: 10%;
 }
