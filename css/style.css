@@ -53,6 +53,10 @@ div {
           border-radius: 0 !important;
 }
 
+.row {
+  padding: 10px;
+}
+
 .container{
     padding:5%;
 }
