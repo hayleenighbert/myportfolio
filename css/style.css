@@ -53,6 +53,12 @@ div {
           border-radius: 0 !important;
 }
 
+cite {
+  font-style: normal;
+  font-size: 18px;
+}
+
+
 .row {
   padding: 10px;
 }
@@ -92,7 +98,7 @@ div {
 .btn {
   background-color: purple;
   color:white;
-  margin: 5px;
+  margin: 5%;
 }
 
 .btn:hover {
