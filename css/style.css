@@ -150,6 +150,9 @@ nav .navbar-nav li a:hover {
   color: #b82369 !important;
 }
 
+.card-header {
+  border: none;
+}
 
 .card-body {
 }
