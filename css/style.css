@@ -142,6 +142,15 @@ cite {
   font-size: 1.6rem;
 }
 
+nav .navbar-nav li a{
+  color: #81425f !important;
+  }
+
+nav .navbar-nav li a:hover {
+  color: #b82369 !important;
+}
+
+
 .card-body {
 }
 
