@@ -154,6 +154,10 @@ nav .navbar-nav li a:hover {
   border: none;
 }
 
+.purple {
+  background-color: #81425f;
+  color: #fff;
+}
 .card-body {
 }
 
