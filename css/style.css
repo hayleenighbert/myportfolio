@@ -122,10 +122,11 @@ cite {
 }
 
 .btn {
-  background-color: purple;
+  background-color: #81425f;
   color:white;
   margin: 5%;
   text-decoration: none;
+  font-size: 22px;
 }
 
 .btn:hover {
