@@ -131,7 +131,7 @@ cite {
 
 .btn:hover {
   color: #fff;
-  background-color: #b82369;
+  background-color: #b82369!important;
 }
 
 .btn:active {
