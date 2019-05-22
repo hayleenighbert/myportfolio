@@ -124,9 +124,6 @@ cite {
     font-style: none;
 }
 
-.blockquote {
-}
-
 .avatar {
   vertical-align: middle;
   width: 250px;
@@ -136,9 +133,24 @@ cite {
 }
 
 .blockquote {
-  background-color: white;
-  padding: 5%;
+  margin: 6%;
+  background-color: #fff;
   font-size: 1.4rem;
+  color: #000;
+}
+
+.purple {
+  background-color: #81425f!important;
+  color: #fff!important;
+}
+
+.purple2 {
+  background-color: #7f657e;
+  color: #fff;
+
+}
+.thicc {
+  padding:10%;
 }
 
 .btn {
@@ -174,10 +186,6 @@ nav .navbar-nav li a:hover {
   border: none;
 }
 
-.purple {
-  background-color: #81425f!important;
-  color: #fff!important;
-}
 
 .grey {
   background-color: #eee!important;
