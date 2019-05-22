@@ -20,6 +20,26 @@ html {
   }
 }
 
+@media screen and (max-width:720px) {
+ 
+/*h1 {
+  font-size: 20px;
+}
+ 
+h2 {
+  font-size: 18px;
+}*/
+ 
+h3 {
+  font-size: 14px;
+}
+ 
+/*h4 {
+  font-size: 14px;
+}*/
+ 
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   color: black;
@@ -220,13 +240,10 @@ li {
 
 .container-fluid {
   vertical-align: middle;
-  padding: 50px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-
-
 
 .well {
   width: 300px;
