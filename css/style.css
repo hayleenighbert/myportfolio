@@ -68,9 +68,6 @@ a:active {
   color: #a15277;
 }
 
-a:focus {
-  color: #a15277;
-}
 
 li {
   line-height: 34px;
@@ -171,6 +168,10 @@ cite {
 }
 
 .btn:active {
+  background-color: #A78DB0;
+}
+
+.btn:focus {
   background-color: #A78DB0;
 }
 
